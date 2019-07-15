@@ -109,12 +109,12 @@ if(mobile.matches){
         /* Language for mobile */
 
 $('.social-button').click(function(){
-    $('.pop-up-mobile').toggleClass('toggle-pop');
+    $('#pop-up-mobile').toggleClass('toggle-pop');
         $('body').addClass('overflow');
 })
 $('.remove').click(function(){
     $('#page').removeClass('toggle-page');
-    $('.pop-up-mobile').removeClass('toggle-pop');
+    $('#pop-up-mobile').removeClass('toggle-pop');
     $('body').removeClass('overflow');
 })
 var popBodyMobile = $('.pop-header-mobile').css('width');
