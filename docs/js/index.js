@@ -1,4 +1,4 @@
-$(dcoument).ready(function(){
+$(document).ready(function(){
     $('#a-toggle1').click(function(){
         $('#a-toggle1').toggleClass('toggle-li');
         $('#a-toggle2').removeClass('toggle-li');
