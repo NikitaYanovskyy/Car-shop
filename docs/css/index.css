@@ -323,7 +323,7 @@ background-position:  center;
 
 .section-5-bg{
     background-image: url(pexels-photo-1134857.jpeg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
